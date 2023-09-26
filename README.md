@@ -6,7 +6,7 @@ This project demonstrates the usage of Javascript and feature dynamically update
 
 ## Links
 
-<!-- insert deployed application link -->
+https://jaysahhn.github.io/Week-5-Jasons-Interactive-Scheduler/
 
 ## Usage
 This is a screenshot of the working webpage
