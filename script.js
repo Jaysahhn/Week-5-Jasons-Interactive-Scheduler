@@ -23,11 +23,11 @@ var h9am = $("#hour-9");
 var h10am = $("#hour-10");
 var h11am = $("#hour-11");
 var h12pm = $("#hour-12");
-var h1pm = $("#hour-1");
-var h2pm = $("#hour-2");
-var h3pm = $("#hour-3");
-var h4pm = $("#hour-4");
-var h5pm = $("#hour-5");
+var h1pm = $("#hour-13");
+var h2pm = $("#hour-14");
+var h3pm = $("#hour-15");
+var h4pm = $("#hour-16");
+var h5pm = $("#hour-17");
 // this section allows us to modify the text for the certain hours with local storage
 
 h9am.children(".description").get(0).value = hour9;
@@ -47,11 +47,11 @@ $(function () {
     { hour: 10, element: h10am },
     { hour: 11, element: h11am },
     { hour: 12, element: h12pm },
-    { hour: 1, element: h1pm },
-    { hour: 2, element: h2pm },
-    { hour: 3, element: h3pm },
-    { hour: 4, element: h4pm },
-    { hour: 5, element: h5pm }
+    { hour: 13, element: h1pm },
+    { hour: 14, element: h2pm },
+    { hour: 15, element: h3pm },
+    { hour: 16, element: h4pm },
+    { hour: 17, element: h5pm }
   ];
   // object array to hold the time slots and selecting the variable that is associated with that hour
 
@@ -82,16 +82,16 @@ $(function () {
       localStorage.setItem("hour11", msg);
     } else if (hourSave === "hour-12") {
       localStorage.setItem("hour12", msg);
-    } else if (hourSave === "hour-1") {
-      localStorage.setItem("hour1", msg);
-    } else if (hourSave === "hour-2") {
-      localStorage.setItem("hour2", msg);
-    } else if (hourSave === "hour-3") {
-      localStorage.setItem("hour3", msg);
-    } else if (hourSave === "hour-4") {
-      localStorage.setItem("hour4", msg);
-    } else if (hourSave === "hour-5") {
-      localStorage.setItem("hour5", msg);
+    } else if (hourSave === "hour-13") {
+      localStorage.setItem("hour13", msg);
+    } else if (hourSave === "hour-14") {
+      localStorage.setItem("hour14", msg);
+    } else if (hourSave === "hour-15") {
+      localStorage.setItem("hour15", msg);
+    } else if (hourSave === "hour-16") {
+      localStorage.setItem("hour16", msg);
+    } else if (hourSave === "hour-17") {
+      localStorage.setItem("hour17", msg);
     };
     // if the hourSave variable is equal to the class, we save the hour# variable and the msg typed in the text box to local storage
   });
